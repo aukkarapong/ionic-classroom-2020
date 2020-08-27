@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+ <form (ngSubmit)="ShowText(text01)">
+   <ion-item>
+     <ion-label>input text: </ion-label>
+     <ion-input type = "text" [(ngModel)]="text01" name = "title"></ion-input>
+   </ion-item>
+   <button ion-button type ="submit" > Click </button>
+ </form>
+</ion-content>
